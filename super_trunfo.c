@@ -23,6 +23,8 @@ int main() {
     int pontosTuristicos2;
 
 // Instrucoes para o usuario
+
+//Cadastro da Carta 1
    
 printf("Bem-vindo ao Super Trunfo!\n\n");
 
@@ -49,10 +51,20 @@ scanf("%f", &pib1);
 printf("Informe o Número de Pontos Turísticos:\n");
 scanf("%d", &pontosTuristicos1);
 
-// Separador de Cartas
+// Exibindo Cartas de forma Organizada (Carta 1)
+
+printf("\n===Carta 1===\n");
+printf("Estado: %c\n", estado1);
+printf("Código: %s\n", codigo1);
+printf("Nome da Cidade: %s\n", nomeDaCidade1);
+printf("População: %d\n", populacao1);
+printf("Área: %.2f km²\n", area1);
+printf("PIB: %.2f bilhões\n", pib1);
+printf("Pontos Turísticos: %d\n", pontosTuristicos1);
 
 printf("\n");
 
+// Instrucoes para o usuario
 
 //Cadastro da Carta 2
 
@@ -79,15 +91,7 @@ scanf("%f", &pib2);
 printf("Informe o Número de Pontos Turísticos:\n");
 scanf("%d", &pontosTuristicos2);
 
-// Exibindo Cartas de forma Organizada
-printf("\n===Carta 1===\n");
-printf("Estado: %c\n", estado1);
-printf("Código: %s\n", codigo1);
-printf("Nome da Cidade: %s\n", nomeDaCidade1);
-printf("População: %d\n", populacao1);
-printf("Área: %.2f km²\n", area1);
-printf("PIB: %.2f bilhões\n", pib1);
-printf("Pontos Turísticos: %d\n", pontosTuristicos1);
+// Exibindo Cartas de forma Organizada (Carta 2)
 
 printf("\n===Carta 2===\n");
 printf("Estado: %c\n", estado2);
@@ -98,4 +102,5 @@ printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f bilhões\n", pib2);
 printf("Pontos Turísticos: %d\n", pontosTuristicos2);
 
-return 0;}
+return 0;
+}
