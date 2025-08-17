@@ -29,7 +29,7 @@ int main() {
 printf("Bem-vindo ao Super Trunfo!\n\n");
 
 printf("Cadastro da Carta 1:\n\n");
-
+   
 printf("Informe o Estado (Letra de A a H):\n");
 scanf(" %c", &estado1);
 
@@ -68,8 +68,8 @@ printf("\n");
 
 //Cadastro da Carta 2
 
-printf("Cadastro da Carta 2:\n");
-
+printf("Cadastro da Carta 2:\n\n");
+ 
 printf("Informe o Estado (Letra de A a H):\n");
 scanf(" %c", &estado2);
 
