@@ -11,10 +11,8 @@ int main() {
     int populacao1;
     float area1;
     float pib1;
-    int pontosTuristicos1;
-    //    float densidade1; // Densidade populacional (População / Área)
+    int pontosTuristicos1; //    float densidade1; // Densidade populacional (População / Área)
       
-    
 //Variaveis da Carta 2
     char estado2 [20];
     char codigo2 [20];
@@ -22,8 +20,7 @@ int main() {
     int populacao2;
     float area2;    
     float pib2;
-    int pontosTuristicos2;
-    // float densidade2; // Densidade populacional (População / Área)
+    int pontosTuristicos2; // float densidade2; // Densidade populacional (População / Área)
 
 // Instrucoes para o usuario
 
@@ -46,7 +43,6 @@ int main() {
     printf("Informe o Número de Pontos Turísticos:\n");
     scanf("%d", &pontosTuristicos1);
     
-
 // Exibindo Cartas de forma Organizada (Carta 1)
    
     printf("\n===Carta 1===\n");
@@ -82,7 +78,6 @@ int main() {
     printf("Informe o Número de Pontos Turísticos:\n");
     scanf("%d", &pontosTuristicos2);
   
-
 // Exibindo Cartas de forma Organizada (Carta 2)
 
     printf("\n===Carta 2===\n");
