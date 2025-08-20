@@ -8,19 +8,19 @@ int main() {
     char estado1 [20];
     char codigo1 [20];
     char nomeDaCidade1 [20];
-    int populacao1;
+    int populacao1; // float densidade1; // Densidade populacional (População / Área)
     float area1;
     float pib1;
-    int pontosTuristicos1; //    float densidade1; // Densidade populacional (População / Área)
+    int pontosTuristicos1;
       
 //Variaveis da Carta 2
     char estado2 [20];
     char codigo2 [20];
     char nomeDaCidade2 [20];
-    int populacao2;
+    int populacao2; // float densidade2; // Densidade populacional (População / Área)
     float area2;    
     float pib2;
-    int pontosTuristicos2; // float densidade2; // Densidade populacional (População / Área)
+    int pontosTuristicos2; 
 
 // Instrucoes para o usuario
 
